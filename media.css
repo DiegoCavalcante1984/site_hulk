@@ -1,0 +1,55 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 760px) {
+ main{
+
+ 
+ }
+ header{
+    justify-content: center;
+    flex-direction: column;
+  }
+  a{
+    margin: 0 auto;
+  }
+  
+  ul{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  section h1{
+   font-size:2.3rem;
+  }
+  .well{
+    color:rgb(12, 126, 21);
+  }
+  p{
+    text-align: center;
+   
+  }
+  #container{
+    display:block;
+    margin: auto;
+  }
+  section{
+    display: block;
+    margin:0 auto;
+    flex-direction: column;
+  }
+  input{
+    width:45vw;
+  }
+  input#btn{
+    width: 25vw;
+    
+  }
+ 
+ img{
+   display: none;
+ }
+}
